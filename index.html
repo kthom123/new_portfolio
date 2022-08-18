@@ -4,18 +4,33 @@
 
   </head>
   <body>
-    <div id="pt" class="canvas">
-      <canvas id="canvas" width="812" height="818" style="width: 812px; height: 818px;"></canvas>
-    </div>
-    <div class="flex">
-      <div class="text">
-        "Hi, I'm "
-        <span class="hightlight">Kyle Thomas</span>
-        "."
-        <br>
-        "I'm a Full Stack Web Developer."
+    <section id="home" class="flex height-fix">
+      <div id="pt" class="canvas">
+        <canvas id="canvas" width="812" height="818" style="width: 812px; height: 818px;"></canvas>
       </div>
-  </div>
+      <div class="flex">
+        <div class="text">
+          " Hi, I'm "
+          <span class="hightlight">Kyle Thomas</span>
+          ". "
+          <br>
+          " I'm a Full Stack Web Developer. "
+        </div>
+        <div class="button page-link" dest="about">
+          " View my work "
+        </div>
+        <nav class="flex desk">
+          <div class="link-wrap">
+            <div class="page-link active" dest="home">home</div>
+            <div class="page-link" dest="about">about</div>
+            <div class="page-link" dest="portfolio">portfolio</div>
+            <div class="page-link" dest="blog">blog</div>
+            <div class="page-link" dest="contact">contact</div>
+          </div>
+          <i class="mdi mdi-menu"></i>
+        </nav>
+      </div>
+    </section>
   </body>
 </html>
 <script></script>
