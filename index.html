@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="style/style.css" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -30,7 +31,35 @@
   </head>
   <body>
     <div class="overflow-wrap">
-      <div class="modal-wrap flex"></div>
+      <!-- HOME -->
+      <div class="modal-wrap flex">
+        <div class="mask"></div>
+        <div class="modal" id="modal">
+          <div class="carousel-wrap">
+            <div class="window">
+              <div id="carousel">
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+              </div>
+              <i class="mdi mdi-chevron-left" id="prev"></i>
+              <i class="mdi mdi-chevron-right" id="next"></i>
+            </div>
+          </div>
+          <div class="info-box">
+            <div class="title"></div>
+            <div class="tag"></div>
+            <div class="detail"></div>
+            <a href="#" target="_blank"
+              ><div class="button">
+                <i class="mdi mdi-open-in-new"></i>VIEW SITE
+              </div></a
+            >
+          </div>
+          <i class="close mdi mdi-close"></i>
+        </div>
+      </div>
+
       <section id="home" class="flex height-fix">
         <div id="pt" class="canvas">
           <canvas id="canvas" width="812" height="818" style="width: 812px; height: 818px;"></canvas>
@@ -61,6 +90,7 @@
       <section id="projects"></section>
       <section id="contact"></section>
       <footer></footer>
+
     </div>
   </body>
 </html>
