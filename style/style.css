@@ -300,7 +300,7 @@ nav .link-wrap div:first-child {
   padding: 25px 20px 12px 20px;
 }
 nav .link-wrap div:hover {
-  color: #e31b6d;
+  color: #1ba9e3;
 }
 nav .mdi-menu {
   font-size: 30pt;
@@ -311,7 +311,7 @@ nav .mdi-menu {
   top: 0;
 }
 nav .active {
-  color: #e31b6d;
+  color: #1ba9e3;
 }
 
 .carousel-wrap {
@@ -436,7 +436,7 @@ nav .active {
   position: relative;
 }
 .modal-wrap .button {
-  background: #e31b6d;
+  background: #1ba9e3;
   border: 0;
   bottom: 20px;
   color: #fff;
@@ -456,7 +456,7 @@ nav .active {
 }
 .modal-wrap .button:hover {
   background: #fff;
-  color: #e31b6d;
+  color: #1ba9e3;
 }
 .modal-wrap .carousel {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
@@ -626,7 +626,7 @@ section:nth-of-type(2) .bar.secondary {
   background-color: #c51675;
 }
 section:nth-of-type(2) .bar.secondary .tag {
-  background-color: #e31b6d;
+  background-color: #1ba9e3;
 }
 section:nth-of-type(2) .bar span {
   padding: 0 15px 0 0;
@@ -654,7 +654,7 @@ section:nth-of-type(3) .float-bar {
   left: 30px;
   position: absolute;
   top: 0;
-  background: #e31b6d;
+  background: #1ba9e3;
   border-radius: 1px;
   height: 25px;
   margin: auto 0;
@@ -699,7 +699,7 @@ section:nth-of-type(3) #gallery .button {
   left: 0;
   position: absolute;
   right: 0;
-  border: 2px solid #e31b6d;
+  border: 2px solid #1ba9e3;
   font-size: 13pt;
   margin: 0 auto;
   padding: 7px 0;
@@ -713,7 +713,7 @@ section:nth-of-type(3) #gallery .mix .waypoint {
   background: #fff;
 }
 section:nth-of-type(3) #gallery .mix .button:hover {
-  background: #e31b6d;
+  background: #1ba9e3;
   color: #fff;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
@@ -929,7 +929,7 @@ footer {
   position: relative;
 }
 footer .mdi-chevron-double-up {
-  background: #e31b6d;
+  background: #1ba9e3;
   cursor: pointer;
   font-size: 30pt;
   height: 50px;
@@ -984,7 +984,7 @@ footer .footnote {
   opacity: 0.6;
 }
 footer .footnote .highlight {
-  color: #e31b6d;
+  color: #1ba9e3;
   font-family: "Open Sans";
 }
 
