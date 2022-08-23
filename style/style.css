@@ -166,8 +166,8 @@ body {
   transition: all 0.5s;
 }
 .button:hover {
-  background-color: #04c2c9;
-  border-color: #04c2c9;
+  background-color: #d70000;
+  border-color: #d70000;
 }
 .button .mdi {
   vertical-align: middle;
@@ -199,7 +199,7 @@ body {
 }
 
 .hexagon {
-  background-color: #04c2c9;
+  background-color: #d70000;
   display: inline-block;
   height: 100%;
   width: calc(100% * 0.57735);
@@ -228,7 +228,7 @@ body {
 }
 
 .highlight {
-  color: #1ba9e3;
+  color: #0991c7;
 }
 
 .header {
@@ -261,7 +261,7 @@ nav {
   left: 0;
   position: absolute;
   background: #1b242f;
-  border-bottom: 3px solid #04c2c9;
+  border-bottom: 3px solid #d70000;
   height: 50px;
   text-align: left;
   width: 100%;
@@ -300,7 +300,7 @@ nav .link-wrap div:first-child {
   padding: 25px 20px 12px 20px;
 }
 nav .link-wrap div:hover {
-  color: #1ba9e3;
+  color: #0991c7;
 }
 nav .mdi-menu {
   font-size: 30pt;
@@ -311,7 +311,7 @@ nav .mdi-menu {
   top: 0;
 }
 nav .active {
-  color: #1ba9e3;
+  color: #0991c7;
 }
 
 .carousel-wrap {
@@ -436,7 +436,7 @@ nav .active {
   position: relative;
 }
 .modal-wrap .button {
-  background: #1ba9e3;
+  background: #0991c7;
   border: 0;
   bottom: 20px;
   color: #fff;
@@ -456,7 +456,7 @@ nav .active {
 }
 .modal-wrap .button:hover {
   background: #fff;
-  color: #1ba9e3;
+  color: #0991c7;
 }
 .modal-wrap .carousel {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
@@ -608,7 +608,7 @@ section:nth-of-type(2) .bar.fill {
   left: 0;
   position: absolute;
   top: 0;
-  background-color: #00a1a7;
+  background-color: #cc0404;
   opacity: 1;
   padding: 0;
 }
@@ -616,7 +616,7 @@ section:nth-of-type(2) .bar .tag {
   left: 0;
   position: absolute;
   top: 0;
-  background-color: #04c2c9;
+  background-color: #d70000;
   color: #fff;
   height: 100%;
   width: 110px;
@@ -626,7 +626,7 @@ section:nth-of-type(2) .bar.secondary {
   background-color: #c51675;
 }
 section:nth-of-type(2) .bar.secondary .tag {
-  background-color: #1ba9e3;
+  background-color: #0991c7;
 }
 section:nth-of-type(2) .bar span {
   padding: 0 15px 0 0;
@@ -654,7 +654,7 @@ section:nth-of-type(3) .float-bar {
   left: 30px;
   position: absolute;
   top: 0;
-  background: #1ba9e3;
+  background: #0991c7;
   border-radius: 1px;
   height: 25px;
   margin: auto 0;
@@ -699,7 +699,7 @@ section:nth-of-type(3) #gallery .button {
   left: 0;
   position: absolute;
   right: 0;
-  border: 2px solid #1ba9e3;
+  border: 2px solid #0991c7;
   font-size: 13pt;
   margin: 0 auto;
   padding: 7px 0;
@@ -713,7 +713,7 @@ section:nth-of-type(3) #gallery .mix .waypoint {
   background: #fff;
 }
 section:nth-of-type(3) #gallery .mix .button:hover {
-  background: #1ba9e3;
+  background: #0991c7;
   color: #fff;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
@@ -813,7 +813,7 @@ section:nth-of-type(4) .blog-wrap.fade .fade-wrap {
   opacity: 0.4;
 }
 section:nth-of-type(4) .blog-wrap.hover .fade-wrap .label {
-  color: #04c2c9;
+  color: #d70000;
 }
 section:nth-of-type(4) .label {
   font-size: 12pt;
@@ -830,7 +830,7 @@ section:nth-of-type(4) .date {
   margin: 5px 0 0 0;
 }
 section:nth-of-type(4) .bar {
-  background: #04c2c9;
+  background: #d70000;
   height: 3px;
   margin: 10px 0px;
   width: 25%;
@@ -854,7 +854,7 @@ section:nth-of-type(5) .header-bar {
   width: 110px;
 }
 section:nth-of-type(5) .highlight {
-  color: #04c2c9;
+  color: #d70000;
   font-weight: 600;
 }
 section:nth-of-type(5) svg {
@@ -894,7 +894,7 @@ section:nth-of-type(5) .button {
   padding: 10px 30px;
 }
 section:nth-of-type(5) .button:hover {
-  background: #04c2c9;
+  background: #d70000;
 }
 section:nth-of-type(5) #success {
   height: 0;
@@ -907,7 +907,7 @@ section:nth-of-type(5) #success.expand {
   height: 36px;
 }
 section:nth-of-type(5) #success div {
-  background: #04c986;
+  background: #d70000;
   border: 1px solid #157c59;
   color: #157051;
   font-size: 10pt;
@@ -929,7 +929,7 @@ footer {
   position: relative;
 }
 footer .mdi-chevron-double-up {
-  background: #1ba9e3;
+  background: #0991c7;
   cursor: pointer;
   font-size: 30pt;
   height: 50px;
@@ -943,7 +943,7 @@ footer .mdi-chevron-double-up {
   width: 47px;
 }
 footer .mdi-chevron-double-up:hover {
-  background: #fb1f79;
+  background: #34b2e4;
 }
 footer .icon-wrap .icon {
   background: #262f38;
@@ -965,7 +965,7 @@ footer .icon-wrap .mdi.mdi-codepen {
   font-size: 20pt;
 }
 footer .icon-wrap .icon:hover {
-  background: #04c2c9;
+  background: #d70000;
   box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
   transform: scale(0.9);
 }
@@ -984,7 +984,7 @@ footer .footnote {
   opacity: 0.6;
 }
 footer .footnote .highlight {
-  color: #1ba9e3;
+  color: #0991c7;
   font-family: "Open Sans";
 }
 
