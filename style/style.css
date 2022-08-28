@@ -793,11 +793,7 @@ section:nth-of-type(5) #success.expand {
   height: 36px;
 }
 section:nth-of-type(5) #success div {
-  background: #d70000;
-  border: 1px solid #157c59;
-  color: #157051;
   font-size: 10pt;
-  font-weight: 600;
   padding: 5px 0;
 }
 section:nth-of-type(5) #close {
