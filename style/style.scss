@@ -633,7 +633,7 @@ section {
       z-index: 1;
     }
 
-    .bars-wrap {
+    .icons-wrap {
       margin: 50px auto 0 auto;
       max-width: 90%;
       width: calc(100% - 15px);
@@ -645,53 +645,6 @@ section {
       }
     }
 
-    .bar {
-      align-items: flex-end;
-      background-color: #eee;
-      color: #666;
-      font-size: 7pt;
-      height: 22px;
-      margin: 0 0 12px 0;
-      position: relative;
-
-      @for $i from 1 through 10 {
-        &:nth-child(#{$i}) .fill {
-          transition: #{1 + ($i * 0.1)}s 0.2s width ease-in-out;
-        }
-      }
-
-      span {
-        display: none;
-      }
-
-      &.fill {
-        @include pos($top: 0, $left: 0);
-        background-color: $primary-dark;
-        opacity: 1;
-        padding: 0;
-      }
-
-      .tag {
-        @include pos($top: 0, $left: 0);
-        background-color: $primary;
-        color: #fff;
-        height: 100%;
-        width: 110px;
-        width: 70px;
-      }
-
-      &.secondary {
-        background-color: $secondary-dark;
-        .tag {
-          background-color: $secondary;
-        }
-      }
-
-      span {
-        padding: 0 15px 0 0;
-        z-index: 1;
-      }
-    }
   }
 
   //PORTFOLIO
@@ -817,82 +770,6 @@ section {
 
   .flex-50-gt-sm {
     display: block;
-  }
-
-  //BLOG
-  &:nth-of-type(4) {
-    padding: 130px 0 100px 0;
-    text-align: left;
-
-    .flex.row-gt-sm,
-    .flex.wrap {
-      align-items: flex-start;
-    }
-
-    .gradient {
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-    }
-
-    .blog-wrap {
-      cursor: pointer;
-      margin: 0 0 50px 0;
-      padding: 0 2px;
-      width: 100%;
-
-      @for $i from 1 through 4 {
-        #thumb-#{$i} {
-          background: url('../img/blog-#{$i}.jpg') center center/cover;
-        }
-      }
-
-      .fade-wrap {
-        transition: opacity 0.3s;
-      }
-
-      &.fade .fade-wrap {
-        opacity: 0.4;
-      }
-
-      &.hover .fade-wrap {
-        .label {
-          color: $primary;
-        }
-      }
-    }
-
-    .label {
-      font-size: 12pt;
-      line-height: 14pt;
-      transition: color 0.3s ease-in-out;
-    }
-
-    .thumb {
-      height: 150px;
-      margin: 0 0 15px 0;
-    }
-
-    .date {
-      font-family: 'Open sans';
-      font-size: 7pt;
-      margin: 5px 0 0 0;
-    }
-
-    .bar {
-      background: $primary;
-      height: 3px;
-      margin: 10px 0px;
-      width: 25%;
-    }
-
-    .text {
-      font-size: 9pt;
-      line-height: 13pt;
-      max-height: 85px;
-    }
   }
 
   //CONTACT
@@ -1222,26 +1099,12 @@ footer {
         }
       }
 
-      .bar {
-        font-size: 11pt;
-        height: 28px;
-        margin: 0 0 15px 0;
-
-        span {
-          display: initial;
-        }
-
-        .tag {
-          width: 110px;
-        }
-      }
-
       .hexagon i {
         font-size: 40pt;
       }
     }
 
-    // PORTFOLIO
+    // PROJECTS
     &:nth-of-type(3) {
       .filter {
         font-size: 11pt;
@@ -1259,35 +1122,6 @@ footer {
             height: 300px;
           }
         }
-      }
-    }
-
-    &:nth-of-type(4) {
-      padding: 130px 0 180px 0;
-      .label {
-        font-size: 16pt;
-        line-height: 22pt;
-      }
-
-      .date {
-        font-size: 8.5pt;
-      }
-
-      .bar {
-        margin: 15px 0px;
-      }
-
-      .text {
-        font-size: 11pt;
-        line-height: 15pt;
-      }
-
-      .blog-wrap {
-        width: 400px;
-      }
-
-      .thumb {
-        height: 200px;
       }
     }
 
@@ -1364,7 +1198,7 @@ footer {
   section {
     // ABOUT
     &:nth-of-type(2) {
-      .bars-wrap {
+      .icons-wrap {
         margin: 0 0 0 0;
       }
 
@@ -1376,9 +1210,6 @@ footer {
         }
       }
 
-      .bar {
-        max-width: 90%;
-      }
 
       .bullet-wrap {
         height: intial;
@@ -1398,23 +1229,5 @@ footer {
       }
     }
 
-    &:nth-of-type(4) {
-      .blog-wrap {
-        margin: 0 0 50px 20px;
-        opacity: 0;
-        width: 400px;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  section {
-    &:nth-of-type(4) {
-      .blog-wrap {
-        margin: 0 0 50px 20px;
-        width: 270px;
-      }
-    }
   }
 }
