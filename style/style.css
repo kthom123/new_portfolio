@@ -177,6 +177,10 @@ body {
   font-family: "Raleway-bold";
 }
 
+.blog {
+  padding: 0;
+}
+
 .flex {
   align-items: center;
   display: flex;
