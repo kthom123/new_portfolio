@@ -727,13 +727,6 @@ section {
           }
         }
 
-        @for $i from 1 through 12 {
-          &:nth-child(#{$i}) {
-            .card {
-              background: url('../img/thumb-#{$i}.jpg') center center/cover;
-            }
-          }
-        }
 
         .card {
           height: 240px;
