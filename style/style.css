@@ -426,12 +426,7 @@ nav .active {
   position: absolute;
   right: 10px;
 }
-.modal-wrap .info-box {
-  border-top: 3px solid #1b242f;
-  box-sizing: border-box;
-  color: #444;
-  padding: 15px 10px 85px 10px;
-}
+
 .modal-wrap .title {
   font-family: "Raleway-bold";
   font-size: 16pt;
@@ -915,9 +910,7 @@ footer .footnote .highlight {
     height: initial;
     top: -6vh;
   }
-  .modal-wrap .info-box {
-    padding: 35px 60px 90px 25px;
-  }
+
   .modal-wrap .title {
     font-size: 22pt;
     line-height: 30pt;
