@@ -1,19 +1,12 @@
 $(document).ready(function() {
   // MODAL
   var modalText = {
-    discover: {
-      title: 'ChowNow Discover',
-      tag: 'FOOD ORDERING PLATFORM.',
+    medrec: {
+      title: 'MedRec',
+      tag: 'MEDICAL RECORD APP.',
       detail:
-        'ChowNow Discover is a platform that lets customers discover new local restaurants and provides business owners with tools to convert first time orders into lifelong diners.',
-      link: 'https://eat.chownow.com/'
-    },
-    ordering: {
-      title: 'ChowNow Ordering Web',
-      tag: 'WHITE-LABEL ONLINE ORDERING SOLUTION.',
-      detail:
-        'ChowNow is a commission-free online ordering system and food ordering app helping restaurants feed their hungry customers.',
-      link: 'https://direct.chownow.com/direct/195/locations/260'
+        'MedRec is a mobile app that allows users to store their medical records and upload them to doctors easily via QR code. Using OCR technology, users can also scan medical forms and autofill them with the saved data.',
+      link: 'http://www.medrec-858.me/'
     },
     newrelic: {
       title: 'NewRelic.com',
