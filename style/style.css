@@ -679,7 +679,7 @@ section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
   background: url("../img/jsgame.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-  background: url("../img/watchlist.jpg") center center/cover;
+  background: url("../img/traveljournal.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix .card {
   height: 240px;
