@@ -335,52 +335,10 @@ nav .active {
   color: #0991c7;
 }
 
-.carousel-wrap {
-  height: 250px;
-  margin: 0 auto;
-  position: relative;
-}
-
 .window {
   background: #222;
   overflow: hidden;
   position: relative;
-}
-
-#carousel {
-  position: relative;
-  top: 0;
-  width: 10000px;
-}
-
-.slide {
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  float: left;
-  height: 250px;
-  justify-content: center;
-}
-
-.mdi-chevron-left,
-.mdi-chevron-right {
-  background: rgba(0, 0, 0, 0.3);
-  bottom: 0;
-  color: #fff;
-  cursor: pointer;
-  cursor: pointer;
-  font-size: 14pt !important;
-  font-weight: bold;
-  padding: 10px 15px;
-  position: absolute;
-}
-
-.mdi-chevron-left {
-  left: 0;
-}
-
-.mdi-chevron-right {
-  right: 0;
 }
 
 .transition {
@@ -474,9 +432,7 @@ nav .active {
   background: #fff;
   color: #0991c7;
 }
-.modal-wrap .carousel {
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
-}
+
 .modal-wrap.visible {
   pointer-events: initial;
 }
@@ -878,10 +834,6 @@ footer .footnote .highlight {
     width: 100px;
   }
 
-  .slide,
-.carousel-wrap {
-    height: 450px;
-  }
 
   .mdi-chevron-left,
 .mdi-chevron-right {
