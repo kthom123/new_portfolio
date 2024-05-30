@@ -9,5 +9,5 @@ My personal web portfolio
 
 
 Check it out:
-https://kthom123.github.io/new_portfolio/
+https://kylethomas.netlify.app/
 
